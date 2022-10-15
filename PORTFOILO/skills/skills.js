@@ -15,6 +15,11 @@ const skills = [
       category: ["all", "frontend", "backend"],
     },
     {
+      name: "DSA",
+      icon_url: "./images/dsa.png",
+      category: ["all"],
+    },
+    {
       name: "REACT",
       icon_url: "https://img.icons8.com/color/50/000000/react-native.png",
       category: ["all", "frontend","backend"],
@@ -25,6 +30,32 @@ const skills = [
       category: ["all", "frontend"],
     },
     {
+      name: "MONGODB",
+      icon_url: "https://img.icons8.com/color/50/000000/mongodb.png",
+      category: ["all", "backend"],
+    },
+    {
+      name: "MONGOOSE",
+      icon_url: "./images/mongoose.png",
+      category: ["all", "backend"],
+    },
+    {
+      name: "EXPRESS",
+      icon_url : "https://img.icons8.com/color/48/000000/express.png",
+      icon_url: "./images/ExpressJS.png",
+      category: ["all", "backend"],
+    },
+    {
+      name: "NODEJS",
+      icon_url: "https://img.icons8.com/windows/48/000000/node-js.png",
+      category: ["all", "backend"],
+    },
+    {
+      name: "Postman",
+      icon_url: "./images/postman.png",
+      category: ["all", "backend"],
+    },
+    {
       name: "Material-UI",
       icon_url: "https://img.icons8.com/color/50/000000/material-ui.png",
       category: ["all", "frontend"],
@@ -32,39 +63,14 @@ const skills = [
    
     {
       name: "Styled-components",
-      icon_url: "../images/styled-components.png",
+      icon_url: "./images/styled-components.png",
       category: ["all", "frontend"],
     },
-    {
-      name: "Postman",
-      icon_url: "../images/postman.png",
-      category: ["all", "backend"],
-    },
+    
     {
       name: "NPM",
       icon_url: "https://img.icons8.com/color/48/000000/npm.png",
       category: ["all", "frontend, backend"],
-    },
-    {
-      name: "MONGODB",
-      icon_url: "https://img.icons8.com/color/50/000000/mongodb.png",
-      category: ["all", "backend"],
-    },
-    {
-      name: "MONGOOSE",
-      icon_url: "../images/mongoose.png",
-      category: ["all", "backend"],
-    },
-    {
-      name: "EXPRESS",
-      icon_url : "https://img.icons8.com/color/48/000000/express.png",
-      icon_url: "../images/ExpressJS.png",
-      category: ["all", "backend"],
-    },
-    {
-      name: "NODEJS",
-      icon_url: "https://img.icons8.com/windows/48/000000/node-js.png",
-      category: ["all", "backend"],
     },
     
     {
@@ -74,15 +80,15 @@ const skills = [
     },
     {
       name: "Vercel",
-      icon_url: "../images/Vercel.png",
+      icon_url: "./images/Vercel.png",
       category: ["all", "frontend"],
     },{
       name: "Heroku",
-      icon_url: "../images/Heroku.png",
+      icon_url: "./images/Heroku.png",
       category: ["all", "backend"],
     },{
       name: "Netlify",
-      icon_url: "../images/Netlify.png",
+      icon_url: "./images/Netlify.png",
       category: ["all", "frontend"],
     },
   ];

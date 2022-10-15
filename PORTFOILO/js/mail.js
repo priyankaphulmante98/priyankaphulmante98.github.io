@@ -1,5 +1,4 @@
 
-
 function SendMSG(e) {
     e.preventDefault()
       let nam_txt = document.querySelector("#name")
