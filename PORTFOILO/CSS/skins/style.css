@@ -633,6 +633,16 @@ h3.my-profession
     border-left: 4px solid var(--text-black-900);
     padding-left: 14px;
 }
+.EDUCATION .gcal{
+    width:1070px;
+}
+.EDUCATION .gimg1{
+    width:535px;
+}
+.EDUCATION .gimg2{
+    width:540px;
+    
+}
 .eduupdate{
     display: flex;
     justify-content: space-between;

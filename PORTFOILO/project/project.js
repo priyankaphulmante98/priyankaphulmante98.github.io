@@ -16,96 +16,14 @@ const Projects = [
     //   project_type: "Team Project",
     //   category: ["all", "html"],
     // },
-    {
-      name: "Clone of Kindmeal.my",
-      about:
-        "Kindmeal.my is  Malaysian's leading meat-free lifestyle platform, indulging you with delicious discounted vegetarian meals at cost environment we aim to encourage people in reducing meat consumption saving precious animal lives, health , environment and money with testy meals.",
-      img: "./images/kindmeal.png",
-      gitrepo: "https://github.com/raushanraj901/Unit_3_Project_kindmeal",
-      video: "https://fantastic-horse-7681f8.netlify.app/",
-      blog: "https://medium.com/p/fc6c31f7e78f/",
-      tech_stack: "HTML | CSS | JAVASCRIPT | API's",
-      tech_stackicons: [
-        `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-        `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-        `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-        `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`,
-      ],
-      project_link: "https://fantastic-horse-7681f8.netlify.app/",
-      project_type: "Team Project",
-      category: ["all", "html"],
-    },
-    {
-      name: "Clone of YouTube",
-      about:
-        "A frontend clone of YouTube, where in the home page user will find popular videos of YouTube and also can search for the desired videos it will show all the videos related to search on the result page.",
-      img: "./images/Youtube-clone.png",
-      gitrepo: "https://github.com/priyankaphulmante98/YOUTUBE-CLONE",
-      video: "https://youtube-clone-eight-navy.vercel.app/",
-      blog: "https://medium.com/@priyankaphulmante98/youtube-clone-6f34318fc7e9",
-      tech_stack: "HTML | CSS | JAVASCRIPT | API's",
-      tech_stackicons: [
-        `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-        `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-        `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-        `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`,
-      ],
-      project_link: "https://youtube-clone-eight-navy.vercel.app/",
-      project_type: "Indivisual Project",
-      category: ["all", "html"],
-    },
-    {
-        name: "clone of Shapelink fitness website",
-        about:
-          "Shapelink website is a workout log website which helps us to track our goals and schedules. it also has an Android app, however with different name Twiik.",
-        img: "./images/shapelink.png",
-        gitrepo: "https://github.com/priyankaphulmante98/TwikkFitness-App_Clone",
-        video: "https://jovial-medovik-e92b37.netlify.app/",
-        blog: "",
-        tech_stack:
-          " HTML | CSS | JavaScript | Local-Storage | ES6",
-        tech_stackicons: [
-          `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-          `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-          `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-          `<img src="https://img.icons8.com/color/48/000000/express.png"/>`,
-          `<img src="https://img.icons8.com/color/48/000000/mongodb.png"/>`,
-          `<img src="https://img.icons8.com/windows/48/000000/node-js.png"/>`,
-        ],
-        project_link: "https://jovial-medovik-e92b37.netlify.app/",
-        project_type: "indiviusal Project",
-        category: ["all", "html", "other"],
-      },
-      {
-        name: "DNA-India News website clone",
-        about:
-          "dna India is basically news_website. Through news, views, analyses and interactivity, dna provides readers with a composite unbiased picture of the city, the country and the world around them.",
-        img: "./images/DnaIndia.png",
-        gitrepo: "https://github.com/priyankaphulmante98/DNA_INDIA_News-App_using_react.js",
-        video: "touted-toad-5222-dna-4kh1.vercel.app",
-        blog: "https://medium.com/@priyankaphulmante98/dna-india-clone-project-using-react-js-9b9f1a0a63ea",
-        tech_stack:
-          "HTML | CSS | JAVASCRIPT | React | Redux | NPM | styles Components",
-        tech_stackicons: [
-          `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-          `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-          `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-          `<img src="https://img.icons8.com/color/50/000000/react-native.png"/>`,
-          `<img src="https://img.icons8.com/color/48/000000/mongodb.png"/>`,
-          `<img src="https://img.icons8.com/color/48/000000/express.png"/>`,
-          `<img src="https://img.icons8.com/windows/48/000000/node-js.png"/>`,
-        ],
-        project_link: "https://dna-india-news-app-using-js-eil6.vercel.app/",
-        project_type: "Indivisual Project",
-        category: ["all", "react"],
-      },
+    
     {
       name: "food quality quantity app ",
       about:
-        "beautyplus is a beauty retail companythat sells cosmetic commodities online. In this project.",
+        "This makes it easier for you to pay for all the things that you want to buy in one shot. It also helps you check the items off your shopping list as you put them into the trolley one by one and make your shopping experience more organized.",
       img: "./images/food.png",
       gitrepo: "https://github.com/priyankaphulmante98/Food_Cart_using_react.js",
-      video: "food-app-green-omega.vercel.app/",
+      video: "https://food-app-green-omega.vercel.app/",
       blog: "",
       tech_stack:
         " HTML | CSS | JavaScript | React.js | Redux ",
@@ -117,11 +35,10 @@ const Projects = [
         `<img src="https://img.icons8.com/color/48/000000/mongodb.png"/>`,
         `<img src="https://img.icons8.com/windows/48/000000/node-js.png"/>`,
       ],
-      project_link: "food-app-green-omega.vercel.app/",
+      project_link: "https://food-app-green-omega.vercel.app/",
       project_type: "Indiviusal Project",
       category: ["all", "react"],
     },
-   
     {
       name: "TIC-TAC-TOE APP",
       about:
@@ -145,6 +62,90 @@ const Projects = [
       project_link: "https://game-sepia.vercel.app/",
       project_type: "Indiviusal Project",
       category: ["all", "react"],
+    },
+    {
+      name: "Clone of YouTube",
+      about:
+        "A frontend clone of YouTube, where in the home page user will find popular videos of YouTube and also can search for the desired videos it will show all the videos related to search on the result page.",
+      img: "./images/Youtube-clone.png",
+      gitrepo: "https://github.com/priyankaphulmante98/YOUTUBE-CLONE",
+      video: "https://youtube-clone-eight-navy.vercel.app/",
+      blog: "https://medium.com/@priyankaphulmante98/youtube-clone-6f34318fc7e9",
+      tech_stack: "HTML | CSS | JAVASCRIPT | API's",
+      tech_stackicons: [
+        `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+        `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+        `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+        `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`,
+      ],
+      project_link: "https://youtube-clone-eight-navy.vercel.app/",
+      project_type: "Indivisual Project",
+      category: ["all", "html"],
+    },
+   
+    {
+      name: "clone of Shapelink fitness website",
+      about:
+        "Shapelink website is a workout log website which helps us to track our goals and schedules. it also has an Android app, however with different name Twiik.",
+      img: "./images/shapelink.png",
+      gitrepo: "https://github.com/priyankaphulmante98/TwikkFitness-App_Clone",
+      video: "https://jovial-medovik-e92b37.netlify.app/",
+      blog: "",
+      tech_stack:
+        " HTML | CSS | JavaScript | Local-Storage | ES6",
+      tech_stackicons: [
+        `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+        `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+        `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+        `<img src="https://img.icons8.com/color/48/000000/express.png"/>`,
+        `<img src="https://img.icons8.com/color/48/000000/mongodb.png"/>`,
+        `<img src="https://img.icons8.com/windows/48/000000/node-js.png"/>`,
+      ],
+      project_link: "https://jovial-medovik-e92b37.netlify.app/",
+      project_type: "indiviusal Project",
+      category: ["all", "html", "other"],
+    },
+    {
+      name: "DNA-India News website clone",
+      about:
+        "dna India is basically news_website. Through news, views, analyses and interactivity, dna provides readers with a composite unbiased picture of the city, the country and the world around them.",
+      img: "./images/DnaIndia.png",
+      gitrepo: "https://github.com/priyankaphulmante98/DNA_INDIA_News-App_using_react.js",
+      video: "https://dna-india-news-app-using-js-eil6.vercel.app/",
+      blog: "https://medium.com/@priyankaphulmante98/dna-india-clone-project-using-react-js-9b9f1a0a63ea",
+      tech_stack:
+        "HTML | CSS | JAVASCRIPT | React | Redux | NPM | styles Components",
+      tech_stackicons: [
+        `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+        `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+        `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+        `<img src="https://img.icons8.com/color/50/000000/react-native.png"/>`,
+        `<img src="https://img.icons8.com/color/48/000000/mongodb.png"/>`,
+        `<img src="https://img.icons8.com/color/48/000000/express.png"/>`,
+        `<img src="https://img.icons8.com/windows/48/000000/node-js.png"/>`,
+      ],
+      project_link: "https://dna-india-news-app-using-js-eil6.vercel.app/",
+      project_type: "Indivisual Project",
+      category: ["all", "react"],
+    },
+    {
+      name: "Clone of Kindmeal.my",
+      about:
+        "Kindmeal.my is  Malaysian's leading meat-free lifestyle platform, indulging you with delicious discounted vegetarian meals at cost environment we aim to encourage people in reducing meat consumption saving precious animal lives, health , environment and money with testy meals.",
+      img: "./images/kindmeal.png",
+      gitrepo: "https://github.com/raushanraj901/Unit_3_Project_kindmeal",
+      video: "https://fantastic-horse-7681f8.netlify.app/",
+      blog: "https://medium.com/p/fc6c31f7e78f/",
+      tech_stack: "HTML | CSS | JAVASCRIPT | API's",
+      tech_stackicons: [
+        `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+        `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+        `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+        `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`,
+      ],
+      project_link: "https://fantastic-horse-7681f8.netlify.app/",
+      project_type: "Team Project",
+      category: ["all", "html"],
     },
     // {
     //   name: "Google Timer stopwatch",
@@ -199,19 +200,20 @@ const Projects = [
   let projects__container = document.getElementById("projects--container");
   
   let all_projects = document.querySelector(".all_projects");
+  let html_projects = document.querySelector(".html_projects");
   let react_projects = document.querySelector(".react_projects");
   let mern_projects = document.querySelector(".mern_projects");
   // let other_projects = document.querySelector(".other_projects");
-  let html_projects = document.querySelector(".html_projects");
   all_projects.classList.add("active_tech_project");
   
   all_projects.addEventListener("click", () => {
     filterProjects("all");
     all_projects.classList.add("active_tech_project");
+    html_projects.classList.remove("active_tech_project");
     react_projects.classList.remove("active_tech_project");
     mern_projects.classList.remove("active_tech_project");
     // other_projects.classList.remove("active_tech_project")
-    html_projects.classList.remove("active_tech_project");
+    
   });
   react_projects.addEventListener("click", () => {
     filterProjects("react");
