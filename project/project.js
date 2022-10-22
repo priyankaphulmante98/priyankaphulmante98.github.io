@@ -21,7 +21,7 @@ const Projects = [
       name: "food quality quantity app ",
       about:
         "This makes it easier for you to pay for all the things that you want to buy in one shot. It also helps you check the items off your shopping list as you put them into the trolley one by one and make your shopping experience more organized.",
-      img: "./images/food.png",
+      img: "./images/Food.png",
       gitrepo: "https://github.com/priyankaphulmante98/Food_Cart_using_react.js",
       video: "https://food-app-green-omega.vercel.app/",
       blog: "",
