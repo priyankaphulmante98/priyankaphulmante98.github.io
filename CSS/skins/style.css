@@ -399,6 +399,17 @@ h3.my-profession
     margin-bottom: 15px;
     margin-right: 10px;
 }
+ /* #priya_img{
+  
+       position: absolute;
+       margin-top: 20%;
+        height: 70%;
+        /* object-fit: cover; */
+        /* opacity: 0.2; */
+        /* overflow: hidden;
+        border-radius: 200px; */
+   
+/* } */ */
 /* About */
 .about .about-content
 {

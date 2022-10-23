@@ -26,7 +26,7 @@ const Projects = [
       video: "https://food-app-green-omega.vercel.app/",
       blog: "",
       tech_stack:
-        " HTML | CSS | JavaScript | React.js | Redux ",
+        " HTML | CSS | JavaScript | React.js ",
       tech_stackicons: [
         `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
         `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
@@ -48,7 +48,7 @@ const Projects = [
       video: "https://game-sepia.vercel.app/",
       blog: "https://medium.com/@priyankaphulmante98/use-react-to-make-tic-tac-toe-in-5-steps-8b8b8fde1178",
       tech_stack:
-        "HTML | CSS | JAVASCRIPT | React | Redux | NPM",
+        "HTML | CSS | JAVASCRIPT | React |  NPM",
       tech_stackicons: [
         `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
         `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
@@ -114,7 +114,7 @@ const Projects = [
       video: "https://dna-india-news-app-using-js-eil6.vercel.app/",
       blog: "https://medium.com/@priyankaphulmante98/dna-india-clone-project-using-react-js-9b9f1a0a63ea",
       tech_stack:
-        "HTML | CSS | JAVASCRIPT | React | Redux | NPM | styles Components",
+        "HTML | CSS | JAVASCRIPT | React | NPM | styles Components",
       tech_stackicons: [
         `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
         `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
@@ -277,7 +277,7 @@ const Projects = [
         <a href=${pro.blog} target="_blank" title="Blog" class="blog-post"><i class="fab fa-blogger-b"></i></a>
         <a href=${pro.project_link} target="_blank" title="Demo" class="see-project"><i class="fas fa-eye"></i></a>
         <a href=${pro.gitrepo} target="_blank" title="GitHub Repository" class="github-repo"><i class="fab fa-github"></i></a>
-        <a href=${pro.video} target="_blank" title="Video Demo" class="video"><i class="fas fa-video"></i></a>
+
         </div>
         <div class="project_tech_box">
         <span class="TechStacks__text">TechStacks: </span> ${pro.tech_stack}
@@ -292,3 +292,4 @@ const Projects = [
   
   displayProjectData(Projects);
   
+  // <a href=${pro.video} target="_blank" title="Video Demo" class="video"><i class="fas fa-video"></i></a> 
