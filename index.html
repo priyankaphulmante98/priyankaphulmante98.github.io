@@ -5,6 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>priyanka phulmante | FULL STACK WEB DEVELOPER</title>
+  <script
+    src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
+    >
+    </script>
+    
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+    />
   <link rel="shortcut icon" href="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f468-1f3fc-200d-1f393.svg" type="image/x-icon">
   <!-- ===== CSS Files ===== -->
   <link rel="stylesheet" href="CSS/skins/style.css">
@@ -213,11 +223,13 @@ emailjs.init("");
                 <div class="section-title padd-15 margtop">
                   <h2>github info</h2>
                 </div>  
-                <div class="EDUCATION">
-                  <img class="gcal"
-                  src="./images/gcalender.png"
-                  alt="gitcalender" />
-                
+                <div
+                class="gitcalender"
+                >
+              
+                    <!-- Loading stuff -->
+                    Loading the data just for you.
+              
                   </div>
 
                   <div class="EDUCATION">
@@ -229,6 +241,7 @@ emailjs.init("");
                       src="https://camo.githubusercontent.com/5b2fc6a3cef0141c38b2f701ca38ae433687c51cdc9ed908442c087f7c024350/68747470733a2f2f61637469766974792d67726170682e6865726f6b756170702e636f6d2f67726170683f757365726e616d653d70726979616e6b617068756c6d616e746539382662675f636f6c6f723d30443131313726636f6c6f723d653035333937266c696e653d65303533393726706f696e743d46464646464626686964655f626f726465723d7472756526"
                       alt="" />
 
+                   
                     
                  </div>
                       </div>
@@ -436,6 +449,8 @@ emailjs.init("");
       <span class="color-5" onclick="setActiveStyle('color-5')"></span>
     </div>
   </div>
+ 
+  
   <!-- ===== Style Switcher End ===== -->
   <!-- ===== JS Files ===== -->
 
@@ -449,3 +464,9 @@ emailjs.init("");
   <script src="skills/skills.js"></script>
 </body>
 </html>
+<script>
+    new GitHubCalendar(".gitcalender", "priyankaphulmante98");
+    let cal = document.querySelector(".GitHubCalendar");
+    cal.style.width="1000px"
+    
+</script>
