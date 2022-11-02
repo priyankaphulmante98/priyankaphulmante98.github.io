@@ -22,15 +22,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
   <!-- github info link -->
-  <!-- <script
-  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
-  >
-  </script>
-  
   <link
   rel="stylesheet"
   href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
-  /> -->
+  />
 
 </head>
 <body>
@@ -99,45 +94,37 @@
             projects using a variety of powerful skills. Also Completed 100+
             hrs of Soft Skill Training. Self-motivated and curious, with a
             keen interest towards building user-centric products. Looking
-            forward to hone my skills in a challenging work environment
+            forward to honest my skills in a challenging work environment
           </p>
           <!-- <a href="#">Download CV</a> -->
         </div>
       </div>
     </div>
   </section>
+
   <!-- github part content start -->
-  <section class="services github" id="services">
-    <div class="max-width">
-      <h2 class="title">My GitHub</h2>
-      <div class="serv-content">
+        <section class="services github" id="services">
+          <div class="max-width">
+            <h2 class="title">My GitHub</h2>
+            <div class="serv-content">
+              <div class="card1">
+                <img class="gimg1"
+                src="https://camo.githubusercontent.com/0ce291d4b18d5b6222a3962adcf7f3d5f3fa06f515594d114bbd94e223adce3c/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d70726979616e6b617068756c6d616e74653938267468656d653d626c61636b2d69636526686964655f626f726465723d74727565267374726f6b653d30303030266261636b67726f756e643d3036304130434430"
+            alt="gitstats">
+      
+              </div>
+             
+        <!-- github calender -->
+        <div class="card1 cardcal">
+            <!-- github-calendar div -->
+        </div>
 
-        <!-- <div class="card1">
-          Loading the data just for you.
-        </div> -->
-
-        <!-- <div class="card1">
-          <img class="gcal"
-            src="https://camo.githubusercontent.com/5b2fc6a3cef0141c38b2f701ca38ae433687c51cdc9ed908442c087f7c024350/68747470733a2f2f61637469766974792d67726170682e6865726f6b756170702e636f6d2f67726170683f757365726e616d653d70726979616e6b617068756c6d616e746539382662675f636f6c6f723d30443131313726636f6c6f723d653035333937266c696e653d65303533393726706f696e743d46464646464626686964655f626f726465723d7472756526"
-            alt="gitstats" >
-        </div> -->
-        <div class="card1">
+        
+        <div class="card1 cardgraph">
           <img class="gimg"
-          src="https://camo.githubusercontent.com/5b2fc6a3cef0141c38b2f701ca38ae433687c51cdc9ed908442c087f7c024350/68747470733a2f2f61637469766974792d67726170682e6865726f6b756170702e636f6d2f67726170683f757365726e616d653d70726979616e6b617068756c6d616e746539382662675f636f6c6f723d30443131313726636f6c6f723d653035333937266c696e653d65303533393726706f696e743d46464646464626686964655f626f726465723d7472756526"
+            src="https://camo.githubusercontent.com/5b2fc6a3cef0141c38b2f701ca38ae433687c51cdc9ed908442c087f7c024350/68747470733a2f2f61637469766974792d67726170682e6865726f6b756170702e636f6d2f67726170683f757365726e616d653d70726979616e6b617068756c6d616e746539382662675f636f6c6f723d30443131313726636f6c6f723d653035333937266c696e653d65303533393726706f696e743d46464646464626686964655f626f726465723d7472756526"
             alt="">
 
-        </div>
-        <div class="card1">
-          <img class="gcal"
-            src="./images/calender.png"
-            alt="gitcalender">
-
-        </div>
-
-        <div class="card1">
-          <img class="gimg"
-            src="https://camo.githubusercontent.com/0ce291d4b18d5b6222a3962adcf7f3d5f3fa06f515594d114bbd94e223adce3c/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d70726979616e6b617068756c6d616e74653938267468656d653d626c61636b2d69636526686964655f626f726465723d74727565267374726f6b653d30303030266261636b67726f756e643d3036304130434430"
-            alt="gitstats">
         </div>
 
       </div>
@@ -391,10 +378,10 @@
 </body>
 
 </html>
-<!-- <script>
-  new GitHubCalendar(".card1", "priyankaphulmante98");
-  let cal = document.querySelector(".card1");
-  cal.style.width="720px"
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+<script>
+  GitHubCalendar(".cardcal", "priyankaphulmante98", { responsive: true });
+</script>
   
-</script> -->
+
 <script src="script.js"></script>
