@@ -275,12 +275,14 @@ text-decoration: underline;
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
+  color:#000;
 }
 .about .about-content .right .text span {
   color: rgba(229, 19, 156, 0.918);
 }
 .about .about-content .right p {
   text-align: justify;
+  color:#000;
 }
 .about .about-content .right a {
   display: inline-block;
@@ -388,6 +390,9 @@ text-decoration: underline;
   box-shadow:  rgba(229, 19, 156, 0.918) 0px 10px 40px -12px;
   background: none;
 }
+.text{
+  color:rgba(229, 19, 156, 0.918);
+}
 
 #text {
   overflow: hidden;
@@ -483,7 +488,6 @@ gap: 2rem;
 
   /* border: 2px solid red; */
 }
-
 
 
 .skills .title::after {
