@@ -270,12 +270,41 @@ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j
 .about .about-content .left {
   width: 45%;
 }
-.about .about-content .left img {
-  height: 450px;
-  width: 380px;
+ .left img {
+  height: 400px;
+  width: 350px;
   object-fit: cover;
   /* border-radius: 200px 200px; */
+  /* border: 2px solid red; */
   border-radius: 50%;
+  background-attachment: fixed;
+  background: #040404 url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")  ;
+}
+.left img:hover {
+  color:  rgba(229, 19, 156, 0.918);
+  /* box-shadow:  rgba(229, 19, 156, 0.918) 5px 10px 40px -12px; */
+ 
+  
+}
+/* .profile_img{
+  height:100px;
+} */
+
+#column_Right{
+  height: auto;
+  width: 600px;
+  border: 1px solid  rgba(229, 19, 156, 0.918);
+  color:#fff;
+  background: #040404 url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")  ;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5%;
+ 
+}
+#column_Right:hover {
+  transform: scale(1.20);
+  border: 2px solid  rgba(229, 19, 156, 0.918) !important;
+  transition: all 0.8s ease;
+  box-shadow:  rgba(229, 19, 156, 0.918) 0px 10px 40px -12px;
 }
 .about .about-content .right {
   width: 55%;
@@ -284,14 +313,14 @@ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
-  color:#000;
+  color:white;
 }
 .about .about-content .right .text span {
   color: rgba(229, 19, 156, 0.918);
 }
 .about .about-content .right p {
   text-align: justify;
-  color:#000;
+  color:white
 }
 .about .about-content .right a {
   display: inline-block;
@@ -311,7 +340,10 @@ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j
 }
 .about .title::after {
   color: rgb(220, 63, 232);
+  content: "about me";
 }
+
+
 
 /* services section styling */
 .services,
@@ -482,8 +514,15 @@ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j
 .sbox{
 /* border: 1px solid orange; */
 padding: 0.5rem;
-border-radius: 1rem;
+border-radius: 2rem;
 text-align:  center;
+}
+.sbox:hover {
+  transform: scale(1.20);
+  background: #040404 url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")  ;
+  border: 2px solid  rgba(229, 19, 156, 0.918) !important;
+  transition: all 0.8s ease;
+  box-shadow:  rgba(229, 19, 156, 0.918) 0px 10px 40px -12px;
 }
 
 .skills-content{
@@ -492,7 +531,7 @@ text-align:  center;
   font-size: 20px;
   font-weight: 500;
   text-align: center;
-gap: 2rem;
+  gap: 2rem;
   grid-template-columns: repeat(6,1fr);
 
   /* border: 2px solid red; */
@@ -509,11 +548,13 @@ gap: 2rem;
   /* border: 1px solid red; */
   /* text-align: start; */
   padding: 0.2rem;
+  transform: scale(1.05);
 }
 .tech span{
   color: rgba(229, 19, 156, 0.918);
   text-shadow:  rgba(229, 19, 156, 0.918);
   font-weight: bold;
+  
  
 
 }
@@ -643,8 +684,18 @@ gap: 2rem;
 .contact .title::after {
   content: "get in touch";
 }
+
 .contact .contact-content .column {
   width: calc(50% - 30px);
+  
+}
+.contact .contact-content .column:hover {
+
+  transform: scale(1.05);
+  background: rgba(229, 19, 156, 0.918);
+  border: 2px solid  rgba(229, 19, 156, 0.918) !important;
+  transition: all 0.8s ease;
+   
 }
 .contact .contact-content .text {
   font-size: 20px;
@@ -672,16 +723,51 @@ gap: 2rem;
 .contact .contact-content .info .head {
   font-weight: 500;
 }
+#icons{
+  /* height: 300px; */
+  /* width: 350px; */
+  height: 350px;
+  width: 500px;
+  border: 1px solid  rgba(229, 19, 156, 0.918);
+  color:#fff;
+  background: #040404 url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")  ;
+  padding-left: 30px;
+  border-radius: 5%;
+  /* border: 2px solid rgb(252, 249, 246); */
+  color: rgba(229, 19, 156, 0.918);
+  /* padding: 10px 36px ; */
+  box-shadow:  rgba(22, 21, 22, 0.918) 6px 10px 40px -12px;
 
+}
+
+#columnright{
+  height: auto;
+  
+  width: 600px;
+  border: 1px solid  rgba(229, 19, 156, 0.918);
+  color:#fff;
+  background: #040404 url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")  ;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5%;
+  /* border: 2px solid rgb(252, 249, 246); */
+  color: rgba(229, 19, 156, 0.918);
+  /* padding: 10px 36px ; */
+  box-shadow:  rgba(22, 21, 22, 0.918) 6px 10px 40px -12px;
+}
+#text{
+  color: black;
+  padding-bottom: 3px;
+  
+}
 .contact .contact-content .info a,
 .contact .contact-content .info a:hover,
 .contact .contact-content .info a:link {
   text-decoration: none;
-  color: #111;
+  color: white;
 }
 
 .contact .contact-content .info .sub-title {
-  color: #333;
+  color: white;
 }
 .contact .right form .fields {
   display: flex;
@@ -737,15 +823,17 @@ gap: 2rem;
   background:  rgba(229, 19, 156, 0.918);
   border: 2px solid  rgba(229, 19, 156, 0.918);
   transition: all 0.3s ease;
+  margin: auto;
 }
 .right form .button-area button:hover {
   color:  rgba(229, 19, 156, 0.918);
   background: none;
 }
-/*  */
+
 .row .a:hover{
   font-weight: 700;
 }
+
 /* footer section styling */
 footer {
   background: #040404 url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 

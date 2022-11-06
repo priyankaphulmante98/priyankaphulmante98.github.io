@@ -67,11 +67,14 @@
         <a href="./pdf/priyanka_phulmante_pdf.pdf" download target="_blank">
           Resume &nbsp;<i class="fa fa-download" aria-hidden="true"></i></a>
           <!-- Resume &nbsp;<i class="fa fa-download" aria-hidden="true"></i> -->
-        
-  
-         
       </div>
     </div>
+    <!-- <div class="left img">
+      <img src="https://cdn.dribbble.com/users/4055494/screenshots/15215756/media/d2b66c4ca0192aa26d103448b3d1518b.gif"
+      /> -->
+
+     
+   
   </section>
 
   <!-- About me content -->
@@ -80,11 +83,10 @@
       <h2 class="title">About me</h2>
       <div class="about-content">
         <div class="column left">
-          <img class="prof" src="./images//priya.png" alt="priyanka"  />
-
-         
+          <img class="profile_img" src="./images//ana-10.png" alt="priya" />
+          
         </div>
-        <div class="column right">
+        <div class="right" id="column_Right">
           <div class="text">
             I'm priyanka phulmante and I'm a <span class="typing-2"></span>
           </div>
@@ -97,10 +99,12 @@
             to utilize skills and learn.
             
           </p>
+        
           <!-- <a href="#">Download CV</a> -->
         </div>
+        
       </div>
-    </div>
+      </div>
   </section>
 
   <!-- github part content start -->
@@ -164,30 +168,34 @@
                     <div class="text">React</div>
                 </div>
             </div>
+
+            <div class="card">
+              <div class="sbox gb">
+                 <img class="simg igb" src="./images/github.png" alt="github">
+                  <div class="text">Github</div>
+              </div>
+          </div>
+
+          <div class="card">
+            <div class="sbox bs">
+               <img class="simg ibs" src="./images/bootstrap.jpg" alt="bootstrap">
+                <div class="text">Bootstrap</div>
+            </div>
+        </div>
             <div class="card">
                 <div class="sbox rdx">
-                   <img class="simg irdx" src="./images/redux.png" alt="html">
+                   <img class="simg irdx" src="./images/redux.png" alt="redux">
                     <div class="text"> Redux</div>
                 </div>
             </div>
-            <div class="card">
-                <div class="sbox dsa">
-                   <img class="simg idsa" src="./images/dsa1.jpg" alt="html">
-                    <div class="text">DSA</div>
-                </div>
-            </div>
+           
             <div class="card">
                 <div class="sbox chkr">
-                   <img class="simg ichkr" src="./images/chakr.jpg" alt="html">
+                   <img class="simg ichkr" src="./images/chakr.jpg" alt="Chakra-UI">
                     <div class="text">Chakra-UI</div>
                 </div>
             </div>
-            <div class="card">
-                <div class="sbox bs">
-                   <img class="simg ibs" src="./images/bootstrap.jpg" alt="html">
-                    <div class="text">Bootstrap</div>
-                </div>
-            </div>
+           
             <div class="card">
                 <div class="sbox pm">
                    <img class="simg ipm" src="./images/post.png" alt="postman">
@@ -198,10 +206,10 @@
                 <div class="sbox tc">
                    <img class="simg itc" src="./images/thunder.png" alt="thunder">
                     <div class="text">
-
                       <small>Thunder Client</small>
                     </div>
                 </div>
+                
             </div>
             <div class="card">
                 <div class="sbox nj">
@@ -210,11 +218,11 @@
                 </div>
             </div>
             <div class="card">
-                <div class="sbox gb">
-                   <img class="simg igb" src="./images/github.png" alt="html">
-                    <div class="text">Github</div>
-                </div>
-            </div>
+              <div class="sbox dsa">
+                 <img class="simg idsa" src="./images/dsa1.jpg" alt="DSA">
+                  <div class="text">DSA</div>
+              </div>
+          </div>
            
            </div>
         </div>
@@ -303,7 +311,7 @@
     <div class="max-width">
       <h2 class="title">Contact me</h2>
       <div class="contact-content">
-        <div class="column left">
+        <div class="column left" id="icons">
           
           <div class="icons">
             <div class="row">
@@ -315,19 +323,29 @@
               </div>
             </div>
             <div class="row">
-              <a class="a" href="https://www.linkedin.com/in/priyanka-phulmante-181633191/" target="_blank"> <i
-                  class="fab fa-linkedin"></i> </a>
+              <a class="a" href="https://www.linkedin.com/in/priyanka-phulmante-181633191/" target="_blank">
+                 <i class="fab fa-linkedin"></i> </a>
               <div class="info">
                 <!-- <div class="head">Address</div> -->
                 <div class="sub-title"> <a class="a" href="https://www.linkedin.com/in/priyanka-phulmante-181633191/"
                     target="_blank">Linkedin</a> </div>
               </div>
             </div>
+
             <div class="row">
               <a class="a" href="https://github.com/priyankaphulmante98" target="_blank"> <i class="fab fa-github"></i> </a>
               <div class="info">
                 <!-- <div class="head">Email</div> -->
                 <div class="sub-title"> <a class="a" href="https://github.com/priyankaphulmante98" target="_blank">GitHub</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <a class="a" href="https://twitter.com/priyankaphulma1" target="_blank"><i class='fab fa-twitter'></i> </a>
+              <div class="info">
+                <!-- <div class="head">Email</div> -->
+                <div class="sub-title"> <a class="a" href="https://twitter.com/priyankaphulma1" target="_blank">Twitter</a>
                 </div>
               </div>
             </div>
@@ -344,8 +362,9 @@
 
           </div>
         </div>
-        <div class="column right">
-          <div class="text">Message me</div>
+
+        <div class="column right" id="columnright">
+          <div class="text" id="text">Message me</div>
           <form target="_blank" action="https://formsubmit.co/priyankaphulmante98@gmail.com" method="POST">
             <div class="fields">
               <div class="field name">
