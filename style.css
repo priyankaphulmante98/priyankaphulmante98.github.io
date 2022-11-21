@@ -441,6 +441,7 @@ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j
   -webkit-line-clamp: 5; /* number of lines to show */
   line-clamp: 2;
   -webkit-box-orient: vertical;
+  color:white;
 }
 .services .serv-content .card .sbox {
   transition: all 0.3s ease;
