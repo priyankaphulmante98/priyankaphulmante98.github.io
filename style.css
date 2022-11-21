@@ -434,6 +434,7 @@ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j
   color:rgba(229, 19, 156, 0.918);
 }
 
+
 #text {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -575,7 +576,7 @@ text-align:  center;
 }
 .project .carousel .card:hover {
   background: rgba(229, 19, 156, 0.918);
-  color: #000;
+  color:white;
   /* change */
 }
 .project .carousel .card .box {
