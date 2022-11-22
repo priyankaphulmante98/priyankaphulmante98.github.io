@@ -271,6 +271,7 @@ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j
   width: 45%;
 }
  .left img {
+  padding-top: 10px ;
   height: 400px;
   width: 350px;
   object-fit: cover;
@@ -281,12 +282,14 @@ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j
   background: #040404 url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")  ;
 }
 .left img:hover {
-  color:  rgba(229, 19, 156, 0.918);
-  /* box-shadow:  rgba(229, 19, 156, 0.918) 5px 10px 40px -12px; */
+  transform: scale(0.8);
+  border: 2px solid  rgba(229, 19, 156, 0.918) !important;
+  transition: all 0.8s ease;
+  box-shadow:  rgba(229, 19, 156, 0.918) 0px 10px 40px -12px;
  
   
 }
-/* .profile_img{
+/* left.profile_img{
   height:100px;
 } */
 
@@ -345,12 +348,15 @@ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j
 
 
 
+
 /* services section styling */
 .services,
 .project {
   color: #fff;
   /* background: #111; */
-  background: #040404 url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")  
+  background: #040404 url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+  /* margin-bottom: 10px;  */
+  
 }
 .services .title::before,
 .project .title::before {
@@ -566,7 +572,7 @@ text-align:  center;
   content: "see my work";
 }
 .project .carousel .card {
-  background: rgba(153, 143, 143, 0.404);
+  background: rgba(223, 77, 169, 0.404);
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
