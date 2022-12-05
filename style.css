@@ -343,7 +343,7 @@ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j
 }
 .about .title::after {
   color: rgb(220, 63, 232);
-  content: "about me";
+
 }
 
 
