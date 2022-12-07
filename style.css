@@ -76,7 +76,7 @@ section .title {
   padding-bottom: 15px;
   font-family: "Ubuntu", sans-serif;
 }
-section .title::before {
+/* section .title::before {
   content: "";
   position: absolute;
   bottom: 0px;
@@ -85,7 +85,7 @@ section .title::before {
   height: 3px;
   background: #111;
   transform: translateX(-50%);
-}
+} */
 section .title::after {
   position: absolute;
   bottom: -8px;
@@ -223,7 +223,7 @@ text-decoration: underline;
 .home .max-width {
   width: au;
   display: flex;
-  border:10px solid red;
+  /* border:10px solid red; */
   border-radius: 30px;
   padding:50px 50px 50px 50px;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2jR33s80-CFM2T5jYtsV1AzniXxAfLFkYqg&usqp=CAU");
@@ -276,12 +276,12 @@ text-decoration: underline;
   border: 2px solid  rgba(229, 19, 156, 0.918);
   transition: all 0.3s ease;
 }
-.home .home-content a:hover {
+/* .home .home-content a:hover {
   color:  rgba(229, 19, 156, 0.918);
   padding: 10px 36px;
   box-shadow:  rgba(229, 19, 156, 0.918) 0px 10px 40px -12px;
   background: none;
-}
+} */
 /* about */
 
 .about {
