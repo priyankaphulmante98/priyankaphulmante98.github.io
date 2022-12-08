@@ -420,6 +420,9 @@ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j
   border-radius: 1rem;
   height: 200px;
 }
+img.reflect{
+  -webkit-box-reflect: right;
+}
 .serv-content{
   width: 90%;
   margin: auto;
