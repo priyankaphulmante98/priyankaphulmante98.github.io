@@ -323,7 +323,9 @@ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j
   /* border: 2px solid red; */
   border-radius: 50%;
   background-attachment: fixed;
-  background: #040404 url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")  ;
+  background: #040404 ;
+
+  /* url ("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=&cs=tinysrgb&w=1260&h=750&dpr=1")  ; */
 }
 .left img:hover {
   transform: scale(0.8);
@@ -404,6 +406,7 @@ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j
 }
 
 .services .serv-content .card {
+  max-height: 600px;
   width: calc(33% - 20px);
   background: #222;
   text-align: center;
@@ -412,6 +415,7 @@ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2j
   cursor: pointer;
   transition: all 0.3s ease;
   border-radius: 1rem;
+  margin-bottom: 10px;
 }
 
 
@@ -478,6 +482,10 @@ img.reflect{
 .text{
   color:white;
 }
+.description{
+  /* border: 1px solid red; */
+  text-align: justify;
+}
 
 
 #text {
@@ -488,6 +496,7 @@ img.reflect{
   line-clamp: 2;
   -webkit-box-orient: vertical;
   color:white;
+ 
 }
 .services .serv-content .card .sbox {
   transition: all 0.3s ease;
